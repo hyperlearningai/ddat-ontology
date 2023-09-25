@@ -1,0 +1,13 @@
+# IDE Resources
+/.settings/
+.classpath
+.factorypath
+.project
+**/.settings/
+**/target/
+**/.classpath
+**/.project
+
+# Development Resources
+/ddat-ontology-scratch/
+

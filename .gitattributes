@@ -1,0 +1,2 @@
+* linguist-vendored
+*.owl linguist-vendored=false
