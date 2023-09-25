@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat">
         <dc:title xml:lang="en">DDaT</dc:title>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDaT</rdfs:label>
+        <rdfs:label xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DDaT</rdfs:label>
         <terms:contributor>Jillur Quddus</terms:contributor>
         <dc:description xml:lang="en">Ontology of contemporary disciplines, roles and skills in the Digital, Data and Technology (DDaT) profession.</dc:description>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2.0</owl:versionInfo>
@@ -23,7 +23,7 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Annotation properties
+    // Annotation Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
