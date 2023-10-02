@@ -7,7 +7,4 @@
 **/target/
 **/.classpath
 **/.project
-
-# Development Resources
-/ddat-ontology-scratch/
-
+.idea/

@@ -134,12 +134,6 @@
     </owl:Class>
 
 
-    <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill">
-        <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thing</entityType>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</rdfs:label>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A DDaT professional skill.</rdfs:comment>
-        <url xml:lang="en" rdf:resource="https://ddat-capability-framework.service.gov.uk/skills.html"/>
-    </owl:Class>
 
 
     <!-- CLASSES - DISCIPLINES -->
@@ -927,7 +921,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillAccessibility">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Accessibility</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accessibility involves ensuring your service can be used by as many people as possible, including those with impaired vision, motor difficulties, cognitive impairments, learning disabilities and deafness.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -953,7 +946,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillAgileAndLeanPractices">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Agile and Lean practices</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agile delivery involves encouraging teams to build incrementally, test and iterate their work based on regular feedback and other useful data.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -979,7 +971,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillAgileWorking">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Agile working</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agile delivery involves encouraging teams to build incrementally, test and iterate their work based on regular feedback and other useful data.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1006,7 +997,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillAgileWorkingContentDesign">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Agile working (content design)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Agile delivery involves encouraging teams to build incrementally, test and iterate their work based on regular feedback and other useful data.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1034,7 +1024,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillAnalysis">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Analysis</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analysis involves examining, interpreting and analysing data to help make informed decisions.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1056,7 +1045,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillAnalysisAndInsight">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Analysis and insight</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analysis and insight involves examining, interpreting and analysing data to help make informed decisions.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1077,7 +1065,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillAnalysisAndSynthesis">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Analysis and synthesis</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1098,7 +1085,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillAnalysisAndSynthesisDataAnalyst">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Analysis and synthesis (data analyst)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1119,7 +1105,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillAnalysisAndSynthesisDataEthics">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Analysis and synthesis (data ethics)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1144,7 +1129,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillAppliedKnowledgeOfSocialSciences">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Applied knowledge of social sciences</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Applied social science involves using an understanding of the social sciences to evaluate and challenge assumptions made in relevant projects.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1164,7 +1148,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillAppliedMathsStatisticsAndScientificPractices">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Applied maths, statistics and scientific practices</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Applied mathematics and statistics involves applying analytical methods including exploratory data analysis, visualisation and statistical testing to help make accurate recommendations.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1194,7 +1177,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillAssetAndConfigurationManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Asset and configuration management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asset and configuration management involves managing the life cycle of IT assets (such as hardware, software, intellectual property, licences and warranties), and the configuration of their components. Consideration is given to the usage, disposal, compliance, inventory, sustainability, cost optimisation and protection of the IT asset portfolio.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1214,7 +1196,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillAvailabilityAndCapacityManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Availability and capacity management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Availability and capacity management involves ensuring services are available with as little down-time or disruption as possible, whilst making sure we have sufficient resources to support emerging business needs.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1233,7 +1214,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillBusinessAnalysis">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Business analysis</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Business analysis involves understanding the business needs and translating those requirements into solutions through detailed analysis and feedback.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1263,7 +1243,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillBusinessAnalysisItOperations">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Business analysis (IT operations)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Business analysis involves understanding the business needs and translating those requirements into solutions through detailed analysis and feedback.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1286,7 +1265,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillBusinessModelling">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Business modelling</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Business modelling involves documenting how your business operates and intends to achieve its goals.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1308,7 +1286,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillBusinessProcessImprovement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Business process improvement</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Business process improvement involves analysing and modifying existing and new processes to make them more efficient.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1333,7 +1310,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillBusinessProcessTesting">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Business process testing</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Business process testing involves confirming that existing or new business processes are efficient and usable, from beginning to end.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1350,7 +1326,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillChangeManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Change management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Change management involves managing changes to services, organisations, suppliers or configuration items, and the associated documentation.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1371,7 +1346,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCodingAndScripting">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Coding and scripting</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coding and scripting involves designing, writing and iterating code and scripts from prototype to production.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1387,7 +1361,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCodingAndScriptingInfrastructureEngineer">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Coding and scripting (infrastructure engineer)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coding and scripting involves designing, writing and iterating code and scripts from prototype to production.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1404,7 +1377,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCommercialManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Commercial management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Commercial management involves exploring commercial opportunities whilst complying with the regulations on how we conduct and manage both internal and third party relationships.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1426,7 +1398,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCommercialPerspective">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Commercial perspective</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Commercial management involves exploring commercial opportunities whilst complying with the regulations on how we conduct and manage both internal and third party relationships.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1446,7 +1417,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCommunicatingAnalysisAndInsight">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Communicating analysis and insight</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1471,7 +1441,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCommunicatingBetweenTheTechnicalAndNonTechnical">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Communicating between the technical and non-technical</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1496,7 +1465,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCommunicatingBetweenTheTechnicalAndNonTechnicalTechnicalArchitect">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Communicating between the technical and non-technical (technical architect)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1514,7 +1482,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCommunicatingData">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Communicating data</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1534,7 +1501,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCommunicatingInformation">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Communicating information</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communication involves conveying information using the most effective medium and language for the audience.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1561,7 +1527,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCommunication">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Communication</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communication involves conveying information using the most effective medium and language for the audience.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1586,7 +1551,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCommunicationDataEthics">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Communication (data ethics)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communication involves conveying information using the most effective medium and language for the audience.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1603,7 +1567,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCommunicationSecurityArchitect">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Communication (security architect)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Communication involves conveying information using the most effective medium and language for the audience.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1624,7 +1587,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCommunityCollaboration">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Community collaboration</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collaboration in the DDaT Profession typically involves working in a multidisciplinary project team, and contributing to working groups and wider professional communities. It requires a broad understanding of the technologies, principles and perspectives of related professions.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1649,7 +1611,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCommunityCollaborationFrontendDeveloper">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Community collaboration (frontend developer)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collaboration in the DDaT Profession typically involves working in a multidisciplinary project team, and contributing to working groups and wider professional communities. It requires a broad understanding of the technologies, principles and perspectives of related professions.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1673,7 +1634,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillConsultancy">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Consultancy</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Consultancy involves providing specialist advice to address stakeholder and business needs.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1694,7 +1654,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillConsultancyBusinessAnalysis">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Consultancy (business analysis)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Consultancy involves providing specialist advice to address stakeholder and business needs.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1712,7 +1671,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillContentConceptsAndPrototyping">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Content concepts and prototyping</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prototyping a service or product involves exploring, testing and sharing different concepts before committing to the final design.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1734,7 +1692,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillContinualServiceImprovement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Continual service improvement</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1754,7 +1711,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillContinuityManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Continuity management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continuity management involves clearly defining processes and remediation plans to ensure the availability of systems and services in the event of unplanned downtime.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1770,7 +1726,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillCustomerServiceManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Customer service management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Customer service management involves managing customer service functions, such as responding to issue reports, information and access requests.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1791,7 +1746,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataAnalysisAndSynthesis">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data analysis and synthesis</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Analysis and insight involves examining, interpreting and analysing data to help make informed decisions.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1809,7 +1763,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataDevelopmentProcess">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data development process</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1828,7 +1781,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataEngineeringAndManipulation">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data engineering and manipulation</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data engineering involves ensuring the correct systems are available to enable the collection, analysis and extrapolation of data.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1853,7 +1805,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataGovernance">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data governance</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data governance involves the set of standards, processes and policies that ensures your data is consistent and reliable throughout the data life cycle.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1876,7 +1827,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataGovernanceDataArchitect">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data governance (data architect)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data governance involves the set of standards, processes and policies that ensures your data is consistent and reliable throughout the data life cycle.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1898,7 +1848,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataInnovation">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data innovation</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Keeping actively informed of industry developments to make creative and cost-effective use of emerging technologies and tools, aligned with business goals and user needs.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1915,7 +1864,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataIntegrationDesign">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data integration design</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data integration involves combining data from different sources to provide a centralised view to help produce, transform and test data related products.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1932,7 +1880,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataLifeCycle">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data life cycle</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1952,7 +1899,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataLiteracyImprovement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data literacy improvement</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1972,7 +1918,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -1996,7 +1941,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataMaturityModels">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data maturity models</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data maturity involves measuring how set up your organisation is to make the best use of its data.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2015,7 +1959,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataModelling">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data modelling</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data modelling involves producing visual representations of information systems to communicate the relationship between different data types.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2038,7 +1981,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataModellingCleansingAndEnrichment">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data modelling, cleansing and enrichment</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data modelling involves producing visual representations of information systems to communicate the relationship between different data types.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2065,7 +2007,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataQualityAssuranceValidationAndLinkage">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data quality assurance, validation and linkage</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data preparation involves sorting and cleansing information so it's available for more detailed analysis.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2094,7 +2035,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataRegulationAndEthics">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data regulation and ethics</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data protection and ethics involves understanding the ethical and legal obligations of storing and protecting business critical information, and encouraging responsible data use.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2117,7 +2057,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataScienceInnovation">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data science innovation</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data science involves examining data through statistical analysis and data mining, to identify patterns and uncover insights that can inform decision-making.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2145,7 +2084,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataStandards">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data standards</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data standards involve established practices to make it easier and more effective to share and use data across government.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2168,7 +2106,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataStandardsDataArchitect">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data standards (data architect)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data standards involve established practices to make it easier and more effective to share and use data across government.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2188,7 +2125,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDataVisualisation">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Data visualisation</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data visualisation involves producing graphical representations that communicate data, such as charts and graphs.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2212,7 +2148,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDdatPerspective">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">DDaT perspective</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2238,7 +2173,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDeliveringBusinessImpact">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Delivering business impact</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2267,7 +2201,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDesigningSecureSystems">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Designing secure systems</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2284,7 +2217,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDevelopingDataScienceCapability">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Developing data science capability</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Training and capability improvement involves identifying and advocating ways to develop the skills, knowledge and performance of individuals or organisations.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2313,7 +2245,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDevelopmentProcessOptimisation">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Development process optimisation</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process optimisation involves ensuring your processes are accurately defined and capture the most efficient way to complete a task by monitoring modified procedures.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2334,7 +2265,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDevelopmentProcessOptimisationManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Development process optimisation (management)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process optimisation involves ensuring your processes are accurately defined and capture the most efficient way to complete a task by monitoring modified procedures.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2355,7 +2285,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillDigitalPerspective">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Digital perspective</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2380,7 +2309,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillEmpathyAndInclusivity">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Empathy and inclusivity</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inclusion involves including everyone to incorporate disparate views and requirements, whether developing products and services or internal policies.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2397,7 +2325,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillEnablingAndInformingRiskBasedDecisions">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Enabling and informing risk-based decisions</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2418,7 +2345,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillEnterpriseAndBusinessArchitecture">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Enterprise and business architecture</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterprise architecture involves analysing how to achieve an organisation's objectives by designing and aligning its IT applications and technologies. Business architecture involves defining the business strategy, governance and most important processes of the organisation.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2440,7 +2366,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillEnterpriseAndBusinessArchitectureBusinessAnalyst">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Enterprise and business architecture (business analyst)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enterprise architecture involves analysing how to achieve an organisation's objectives by designing and aligning its IT applications and technologies. Business architecture involves defining the business strategy, governance and most important processes of the organisation.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2455,7 +2380,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillEthicsAndPrivacy">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Ethics and privacy</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2474,7 +2398,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillEthicsAndPrivacyDataScience">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Ethics and privacy (data science)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2498,7 +2421,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillEvidenceAndContextBasedDesign">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Evidence- and context-based design</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2515,7 +2437,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillFinancialManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Financial management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Financial management involves planning, organising and monitoring financial resources.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2538,7 +2459,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillFinancialOwnership">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Financial ownership</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Financial management involves planning, organising and monitoring financial resources.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2562,7 +2482,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillFunctionalTesting">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Functional testing</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Testing involves ensuring that requirements have been fully met by using appropriate tools and techniques to verify that a product or service works.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2589,7 +2508,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillGovernanceAndAssurance">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Governance and assurance</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Governance and assurance involves defining and ensuring adherence to an organisation's quality control and compliance processes.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2612,7 +2530,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillGovernanceAndAssuranceAccessibility">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Governance and assurance (accessibility)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Governance and assurance involves defining and ensuring adherence to an organisation's quality control and compliance processes.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2628,7 +2545,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillIncidentManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Incident management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incident management involves coordinating the response to incident reports, ensuring effective prioritisation, investigation and resolution.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2644,7 +2560,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillInclusiveResearch">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Inclusive research</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inclusion involves including everyone to incorporate disparate views and requirements, whether developing products and services or internal policies.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2665,7 +2580,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillInformationSecurity">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Information security</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Information security involves maintaining the security, confidentiality and integrity of information.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2684,7 +2598,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillItAndMathematics">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">IT and mathematics</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2705,7 +2618,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillItInfrastructure">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">IT infrastructure</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT infrastructure involves ensuring systems and processes are available, adaptable, reliable and secure.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2723,7 +2635,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillItInfrastructureNetworkArchitect">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">IT infrastructure (network architect)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT infrastructure involves ensuring systems and processes are available, adaptable, reliable and secure.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2739,7 +2650,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillLeadershipAndGuidance">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Leadership and guidance</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leadership and guidance involves providing effective leadership and management through team motivation, decision making, risk management, mediation and professional development</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2772,7 +2682,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillLeadershipAndGuidanceFrontendDeveloper">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Leadership and guidance (frontend developer)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leadership and guidance involves providing effective leadership and management through team motivation, decision making, risk management, mediation and professional development</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2799,7 +2708,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillLifeCyclePerspective">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Life cycle perspective</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2827,7 +2735,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillLogicalAndCreativeThinking">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Logical and creative thinking</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2851,7 +2758,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillMaintainingDeliveryMomentum">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Maintaining delivery momentum</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Delivery management involves improving the speed and efficiency with which products and services are developed.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2874,7 +2780,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillMakingAProcessWork">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Making a process work</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Process optimisation involves ensuring your processes are accurately defined and capture the most efficient way to complete a task by monitoring modified procedures.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2893,7 +2798,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillMakingAndGuidingDecisions">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Making and guiding decisions</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2914,7 +2818,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillManagingDecisionsAndRisks">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Managing decisions and risks</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2939,7 +2842,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillMetadataManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Metadata management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metadata management involves establishing policies and processes that ensure data can be accessed across an organisation.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2960,7 +2862,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillMethodsAndTools">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Methods and tools</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2978,7 +2879,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillModernStandardsApproach">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Modern standards approach</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modern development standards involves using the latest technologies and best practices to improve the quality of the software development process.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -2997,7 +2897,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillModernStandardsApproachFrontendDeveloper">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Modern standards approach (frontend developer)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modern development standards involves using the latest technologies and best practices to improve the quality of the software development process.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3016,7 +2915,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillNonFunctionalTesting">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Non-functional testing</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non-functional testing involves verifying that a system (behind the functions and features) complies with requirements such as performance and usability.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3045,7 +2943,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillOperationalManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Operational management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3068,7 +2965,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillOwnershipAndInitiative">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Ownership and initiative</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3086,7 +2982,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillPerformanceMeasurement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Performance measurement</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Performance measurement involves collecting and interpreting data to identify how a team, product or service is performing.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3106,7 +3001,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillPlanning">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Planning</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3131,7 +3025,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillProblemDefinitionAndShaping">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Problem definition and shaping</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3151,7 +3044,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillProblemManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Problem management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Problem management involves anticipating and identifying problems in systems, processes or services, and ensuring appropriate solutions are implemented.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3176,7 +3068,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillProblemManagementDataArchitect">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Problem management (data architect)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Problem management involves anticipating and identifying problems in systems, processes or services, and ensuring appropriate solutions are implemented.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3199,7 +3090,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillProblemResolutionData">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Problem resolution (data)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Problem management involves anticipating and identifying problems in systems, processes or services, and ensuring appropriate solutions are implemented.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3222,7 +3112,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillProductOwnership">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Product ownership</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3244,7 +3133,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillProductOwnershipDataEthics">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Product ownership (data ethics)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3267,7 +3155,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillProgrammingAndBuildDataEngineering">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Programming and build (data engineering)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3286,7 +3173,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillProgrammingAndBuildDataScience">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Programming and build (data science)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3309,7 +3195,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillProgrammingAndBuildFrontendDeveloper">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Programming and build (frontend developer)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3331,7 +3216,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillProgrammingAndBuildSoftwareEngineering">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Programming and build (software engineering)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3351,7 +3235,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillProjectManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Project management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Project management involves understanding the life cycle of a project to achieve its objectives within the agreed parameters.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3373,7 +3256,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillPrototyping">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Prototyping</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prototyping a service or product involves exploring, testing and sharing different concepts before committing to the final design.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3396,7 +3278,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillPrototypingInCode">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Prototyping in code</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prototyping a service or product involves exploring, testing and sharing different concepts before committing to the final design.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3417,7 +3298,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillRequirementsDefinitionAndManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Requirements definition and management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Requirements definition and management involves identifying and validating user or business requirements for a product or service.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3443,7 +3323,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillResearch">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Research</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">User research involves methods to identify user needs and understand how users interact with a product or service.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3465,7 +3344,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillResearchAndInnovation">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Research and innovation</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Keeping actively informed of industry developments to make creative and cost-effective use of emerging technologies and tools, aligned with business goals and user needs.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3483,7 +3361,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillSecurityTechnology">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Security technology</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Security technology involves understanding security architectures and identifying vulnerabilities to prevent and respond to cyber breaches.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3502,7 +3379,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillServiceFocus">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Service focus</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT service delivery involves overseeing the whole service life cycle, including the design, development, deployment and operation of a service.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3521,7 +3397,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillServiceManagementFrameworkKnowledge">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Service management framework knowledge</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT service management involves identifying, prioritising and implementing IT services, ensuring the organisation gets maximum value for money.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3540,7 +3415,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillServiceReporting">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Service reporting</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT service reporting involves analysing data to understand how an IT product or service has performed against the Key Performance Indicators (KPIs).</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3559,7 +3433,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillServiceSupport">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Service support</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Service support involves fixing service faults and maintaining the underlying infrastructure, ensuring processes are in place to keep the service running efficiently.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3577,7 +3450,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillSocietyAndTechnology">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Society and technology</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3596,7 +3468,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillStakeholderRelationshipManagement">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Stakeholder relationship management</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stakeholder relationship management involves managing stakeholder requirements and communications throughout a project, while remaining focused on the user needs.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3618,7 +3489,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillStakeholderRelationshipManagementBusinessAnalysis">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Stakeholder relationship management (business analysis)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stakeholder relationship management involves managing stakeholder requirements and communications throughout a project, while remaining focused on the user needs.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3640,7 +3510,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillStakeholderRelationshipManagementContentDesign">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Stakeholder relationship management (content design)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stakeholder relationship management involves managing stakeholder requirements and communications throughout a project, while remaining focused on the user needs.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3666,7 +3535,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillStakeholderRelationshipManagementItOperations">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Stakeholder relationship management (IT operations)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stakeholder relationship management involves managing stakeholder requirements and communications throughout a project, while remaining focused on the user needs.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3687,7 +3555,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillStatisticalMethodsAndDataAnalysis">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Statistical methods and data analysis</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Applied mathematics and statistics involves applying analytical methods including exploratory data analysis, visualisation and statistical testing to help make accurate recommendations.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3708,7 +3575,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillStrategicDesignAndBusinessChange">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Strategic design and business change</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategy involves creating a plan to achieve a team or organisation's objectives.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3729,7 +3595,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillStrategicInsight">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Strategic insight</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategy involves creating a plan to achieve a team or organisation's objectives.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3750,7 +3615,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillStrategicOwnership">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Strategic ownership</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategy involves creating a plan to achieve a team or organisation's objectives.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3770,7 +3634,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillStrategicThinking">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Strategic thinking</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategy involves creating a plan to achieve a team or organisation's objectives.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3790,7 +3653,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillStrategicThinkingContentDesign">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Strategic thinking (content design)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategy involves creating a plan to achieve a team or organisation's objectives.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3814,7 +3676,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillStrategy">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Strategy</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strategy involves creating a plan to achieve a team or organisation's objectives.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3834,7 +3695,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillSystemsAnalysis">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Systems analysis</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IT systems analysis involves assessing current systems and implementing new ones, to improve the performance and efficiency of an organisation's applications.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3858,7 +3718,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillSystemsDesign">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Systems design</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systems design involves creating the specification and design of systems to meet defined business needs.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3885,7 +3744,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillSystemsDesignFrontendDeveloper">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Systems design (frontend developer)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3909,7 +3767,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillSystemsIntegration">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Systems integration</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systems integration involves identifying points of connection between different systems and processes, or opportunities to combine them, and designing how the components communicate.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3930,7 +3787,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillSystemsIntegrationFrontendDeveloper">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Systems integration (frontend developer)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3950,7 +3806,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillSystemsIntegrationNetworkArchitect">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Systems integration (network architect)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systems integration involves identifying points of connection between different systems and processes, or opportunities to combine them, and designing how the components communicate.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3965,7 +3820,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillTeamDynamicsAndCollaboration">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Team dynamics and collaboration</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -3995,7 +3849,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillTechnicalBreadth">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Technical breadth</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4021,7 +3874,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillTechnicalSpecialism">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Technical specialism</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4043,7 +3895,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillTechnicalUnderstanding">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Technical understanding</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4060,7 +3911,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillTechnicalUnderstandingAccessibility">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Technical understanding (accessibility)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accessibility involves ensuring your service can be used by as many people as possible, including those with impaired vision, motor difficulties, cognitive impairments, learning disabilities and deafness.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4092,7 +3942,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillTechnicalUnderstandingPerformanceAnalyst">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Technical understanding (performance analyst)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Performance measurement involves collecting and interpreting data to identify how a team, product or service is performing.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4111,7 +3960,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillTechnicalUnderstandingUserCentredDesign">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Technical understanding (user-centred design)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4129,7 +3977,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillTestAnalysis">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Test analysis</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4153,7 +4000,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillTesting">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Testing</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Testing involves ensuring that requirements have been fully met by using appropriate tools and techniques to verify that a product or service works.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4177,7 +4023,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillTestingBusinessAnalysis">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Testing (business analysis)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Testing involves ensuring that requirements have been fully met by using appropriate tools and techniques to verify that a product or service works.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4198,7 +4043,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillToolsAndSoftware">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Tools and software</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4217,7 +4061,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillTroubleshootingAndProblemResolution">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Troubleshooting and problem resolution</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4237,7 +4080,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillTurningBusinessProblemsIntoDataDesign">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Turning business problems into data design</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4258,7 +4100,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillTurningBusinessProblemsIntoTechnicalDesign">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Turning business problems into technical design</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4276,7 +4117,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillUnderstandingAnalysisAcrossTheProductLifeCycle">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Understanding analysis across the product life cycle</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4305,7 +4145,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillUnderstandingProductDelivery">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Understanding product delivery</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Product delivery involves ensuring that a product or service is developed in a timely and cost-effective way, meeting the user needs.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4330,7 +4169,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillUnderstandingSecurityImplicationsOfTransformation">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Understanding security implications of transformation</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Security management involves identifying and protecting an organisation's assets (systems, people and buildings).</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4347,7 +4185,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillUnderstandingTheWholeContext">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Understanding the whole context</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4372,7 +4209,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillUserExperienceAnalysis">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">User experience analysis</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4392,7 +4228,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillUserFocus">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">User focus</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">User focus involves understanding the user needs to develop a detailed understanding of the problems that need to be solved.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4419,7 +4254,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillUserFocusContentDesign">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">User focus (content design)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">User focus involves understanding the user needs to develop a detailed understanding of the problems that need to be solved.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4451,7 +4285,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillUserFocusFrontendDeveloper">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">User focus (frontend developer)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">User focus involves understanding the user needs to develop a detailed understanding of the problems that need to be solved.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4473,7 +4306,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillUserCentredAnalysis">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">User-centred analysis</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4499,7 +4331,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillUserCentredAndAgilePractices">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">User-centred and Agile practices</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4521,7 +4352,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillUserCentredContentDesign">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">User-centred content design</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">User-centred content design involves focusing on user needs through an evidence-based and iterative design process, to ensure content is easy to use and understand.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4558,7 +4388,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillVerificationAndValidationOfDataAndAnalysis">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Verification and validation of data and analysis</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data preparation involves sorting and cleansing information so it's available for more detailed analysis.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4585,7 +4414,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillWebPerformanceOptimisation">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Web performance optimisation</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Web performance optimisation involves improving the efficiency and speed with which web pages load in a browser.</skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4611,7 +4439,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillWorkingWithinConstraints">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Working within constraints</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
@@ -4633,7 +4460,6 @@
 
 
     <owl:Class rdf:about="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skillWorkingWithinConstraintsPerformanceAnalyst">
-        <rdfs:subClassOf rdf:resource="http://daas.hyperlearning.ai/architecture/data/ontologies/ddat#skill"/>
         <rdfs:label xml:lang="en">Working within constraints (performance analyst)</rdfs:label>
         <skos:definition xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></skos:definition>
         <entityType xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skill</entityType>
