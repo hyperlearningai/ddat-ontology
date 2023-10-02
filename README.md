@@ -45,8 +45,8 @@ This public repository contains the following ontologies in OWL RDF/XML format.
 
 File Name | Description
 :--- | :---
-`ddat.owl` | The full version of our publicly-released DDaT ontology.
-`ddat-visualisation.owl` | A filtered version of our publicly-released DDaT ontology for effective visualisation purposes i.e. removal of links such as subclass relationships to the parent Skill class etc. that do not add meaningful value to the ontology visualisation.
+[`ddat.owl`](ddat.owl) | The full version of our publicly-released DDaT ontology.
+[`ddat-visualisation.owl`](ddat-visualisation.owl) | A filtered version of our publicly-released DDaT ontology for effective visualisation purposes i.e. removal of links such as subclass relationships to the parent Skill class etc. that do not add meaningful value to the ontology visualisation.
 
 <p align="right"><a href="#readme-top">Back to Top &#9650;</a></p>
 
