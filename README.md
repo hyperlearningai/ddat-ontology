@@ -2,12 +2,12 @@
 <div align="center">
 <h1>DDaT Ontology</h1>
 <p>Ontological model of the Digital, Data and Technology (DDaT) profession.</p>
-<p><a href="https://ddat-capability-framework.service.gov.uk/" target="_blank">DDaT Capability Framework</a> · <a href="https://ontopop.com/ontologies/ddat" target="_blank">DDaT Ontology Visualisation</a></p>
+<p><a href="https://ddat-capability-framework.service.gov.uk/" target="_blank">DDaT Capability Framework</a> · <a href="https://app.ontospark.com/?ontologyid=ddat" target="_blank">DDaT Ontology Visualisation</a></p>
 </div>
 
 |   ![DDaT Ontology](assets/images/ddat-ontology-ontospark-screenshot.png "DDaT Ontology")   |
 |:--------------------------------------:|
-| DDaT ontology visualisation in OntoPop |
+| DDaT ontology visualisation in OntoSpark |
 <br/>
 
 ## Table of Contents  
@@ -66,7 +66,7 @@ The DDaT ontology contains public sector information sourced from the [Digital, 
 
 * [DDaT capability framework](https://ddat-capability-framework.service.gov.uk/)
 * [DDaT capability framework website parser & modeller](https://github.com/hyperlearningai/ddat-ontology-modeller)
-* [DDaT ontology visualisation in OntoPop](https://ontopop.com/ontologies/ddat)
+* [DDaT ontology visualisation in OntoSpark](https://app.ontospark.com/?ontologyid=ddat)
 * [DDaT ontology in WebProtégé](https://webprotege.stanford.edu/#projects/a86cf6a3-c6f1-4dc8-a8db-b8be17e39736/edit/Classes)
 
 <p align="right"><a href="#readme-top">Back to Top &#9650;</a></p>
