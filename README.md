@@ -75,6 +75,6 @@ The DDaT ontology contains public sector information sourced from the [Digital, 
 
 The DDaT ontology was developed by the following authors:
 
-* **[Jillur Quddus](https://hyperlearning.ai/team/jillurquddus)**<br/>Chief Data Scientist & Principal Polyglot Software Engineer
+* **[Jillur Quddus](https://hyperlearning.ai/team/jillurquddus/)**<br/>Computational Mathematician
 
 <p align="right"><a href="#readme-top">Back to Top &#9650;</a></p>
